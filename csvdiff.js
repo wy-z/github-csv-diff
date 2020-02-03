@@ -23,7 +23,7 @@ function render_csv_files() {
     let new_rows = [];
     let column_number = 0;
     lines = file_div.find(".blob-code-inner");
-    lines.each(function() {
+    lines.each(function(index) {
       // parse table row from line
       let code_marker = $(this).data("code-marker");
       const is_code_hunk = code_marker == undefined;
@@ -31,6 +31,7 @@ function render_csv_files() {
         .text()
         .trim();
       if (line.length == 0) return; // skip empty line
+      if (is_code_hunk && index == 0) return; // skip first code hunk
       if (is_code_hunk) line = '"' + line + '"';
       row = $.csv.toArray(line);
       // get column number
