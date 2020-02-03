@@ -1,0 +1,72 @@
+.github-csv-diff {
+}
+
+.github-csv-diff table {
+  width: 100%;
+}
+
+.github-csv-diff th {
+  text-align: left;
+}
+
+.github-csv-diff td,
+.github-csv-diff th {
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+.github-csv-diff tr:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
+.github-csv-diff tr:nth-child(even) td.modify,
+.github-csv-diff tr:nth-child(even) th.modify {
+  background-color: #bfcfd6 !important;
+}
+
+.github-csv-diff tr:nth-child(odd) td.modify,
+.github-csv-diff tr:nth-child(odd) th.modify {
+  background-color: #c5d5dd !important;
+}
+
+.github-csv-diff tr:nth-child(even) td.add,
+.github-csv-diff tr:nth-child(even) th.add,
+.github-csv-diff tr.add:nth-child(even) {
+  background-color: #d6f8d6 !important;
+}
+
+.github-csv-diff tr:nth-child(odd) td.add,
+.github-csv-diff tr:nth-child(odd) th.add,
+.github-csv-diff tr.add:nth-child(odd) {
+  background-color: #dfd !important;
+}
+
+.github-csv-diff tr:nth-child(even) td.remove,
+.github-csv-diff tr:nth-child(even) th.remove,
+.github-csv-diff tr.remove:nth-child(even) {
+  background-color: #f8d6d6 !important;
+}
+
+.github-csv-diff tr:nth-child(odd) td.remove,
+.github-csv-diff tr:nth-child(odd) th.remove,
+.github-csv-diff tr.remove:nth-child(odd) {
+  background-color: #fdd !important;
+}
+
+.github-csv-diff tr:nth-child(even) td.move,
+.github-csv-diff tr:nth-child(even) th.move,
+.github-csv-diff tr.move:nth-child(even) {
+  background-color: #ffffeb !important;
+}
+
+.github-csv-diff tr:nth-child(odd) td.move,
+.github-csv-diff tr:nth-child(odd) th.move,
+.github-csv-diff tr.move:nth-child(odd) {
+  background-color: #ffffd8 !important;
+}
+
+.github-csv-diff tr td.gap,
+.github-csv-diff tr th.gap,
+.github-csv-diff tr.gap {
+  background-color: #f1f8ff !important;
+}

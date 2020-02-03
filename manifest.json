@@ -1,0 +1,38 @@
+{
+  "manifest_version": 2,
+  "name": "Github CSV Diff",
+  "homepage_url": "https://github.com/wy-z/github-csv-diff",
+  "description": "Show CSV diffs on GitHub",
+  "version": "1.0.0",
+  "icons": {
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+  "permissions": [
+    "contextMenus"
+  ],
+  "background": {
+    "persistent": false,
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/*/*/pull/*/files",
+        "*://*/*/*/commit/*"
+      ],
+      "js": [
+        "js/daff-1.3.40.js",
+        "js/jquery.slim.min-3.4.1.js",
+        "js/jquery.csv.min-1.0.8.js",
+        "csvdiff.js"
+      ],
+      "css": [
+        "css/daff.css"
+      ],
+      "run_at": "document_end"
+    }
+  ]
+}
