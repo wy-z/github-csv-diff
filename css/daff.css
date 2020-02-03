@@ -21,36 +21,36 @@
 
 .github-csv-diff tr:nth-child(even) td.modify,
 .github-csv-diff tr:nth-child(even) th.modify {
-  background-color: #bfcfd6 !important;
+  background-color: #e5ecf0 !important;
 }
 
 .github-csv-diff tr:nth-child(odd) td.modify,
 .github-csv-diff tr:nth-child(odd) th.modify {
-  background-color: #c5d5dd !important;
+  background-color: #f5f8f9 !important;
 }
 
 .github-csv-diff tr:nth-child(even) td.add,
 .github-csv-diff tr:nth-child(even) th.add,
 .github-csv-diff tr.add:nth-child(even) {
-  background-color: #d6f8d6 !important;
+  background-color: #dfd !important;
 }
 
 .github-csv-diff tr:nth-child(odd) td.add,
 .github-csv-diff tr:nth-child(odd) th.add,
 .github-csv-diff tr.add:nth-child(odd) {
-  background-color: #dfd !important;
+  background-color: #d6f8d6 !important;
 }
 
 .github-csv-diff tr:nth-child(even) td.remove,
 .github-csv-diff tr:nth-child(even) th.remove,
 .github-csv-diff tr.remove:nth-child(even) {
-  background-color: #f8d6d6 !important;
+  background-color: #ffdce0 !important;
 }
 
 .github-csv-diff tr:nth-child(odd) td.remove,
 .github-csv-diff tr:nth-child(odd) th.remove,
 .github-csv-diff tr.remove:nth-child(odd) {
-  background-color: #fdd !important;
+  background-color: #ffeef0 !important;
 }
 
 .github-csv-diff tr:nth-child(even) td.move,
