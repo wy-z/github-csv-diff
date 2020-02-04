@@ -21,8 +21,7 @@
   "content_scripts": [
     {
       "matches": [
-        "*://*/*/*/pull/*/files",
-        "*://*/*/*/commit/*"
+        "https://github.com/*"
       ],
       "js": [
         "js/daff-1.3.40.js",
