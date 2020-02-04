@@ -4,8 +4,8 @@ const CSVDIFF_RENDER = "csvdiff_render";
 chrome.runtime.onInstalled.addListener(function() {
   chrome.contextMenus.create({
     id: CSVDIFF_RENDER,
-    title: "Render",
-    contexts: ["page_action"]
+    title: "Render CSV diffs",
+    contexts: ["page", "page_action"]
   });
 });
 
