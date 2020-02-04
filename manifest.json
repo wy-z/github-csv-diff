@@ -9,7 +9,8 @@
     "128": "icons/128.png"
   },
   "permissions": [
-    "contextMenus"
+    "contextMenus",
+    "activeTab"
   ],
   "background": {
     "persistent": false,
