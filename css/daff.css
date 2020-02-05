@@ -21,12 +21,12 @@
 
 .github-csv-diff tr:nth-child(even) td.modify,
 .github-csv-diff tr:nth-child(even) th.modify {
-  background-color: #e5ecf0 !important;
+  background-color: #dce7ea !important;
 }
 
 .github-csv-diff tr:nth-child(odd) td.modify,
 .github-csv-diff tr:nth-child(odd) th.modify {
-  background-color: #f5f8f9 !important;
+  background-color: #e9eff2 !important;
 }
 
 .github-csv-diff tr:nth-child(even) td.add,
