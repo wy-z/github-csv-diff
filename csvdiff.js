@@ -76,7 +76,13 @@ function render_csv_file(file_div) {
 function render_csv_files() {
   // check diff view mode
   const diff_view = $("meta[name=diff-view]").attr("content"); // 'unified' or 'split'
-  if (diff_view != "unified") return; // work only in 'unified' mode
+  // work only in 'unified' diff view mode
+  if (diff_view != "unified") {
+    if (diff_view == "split") {
+      console.warn("Github CSV Diff works only in 'Unified' diff view mode");
+    }
+    return;
+  }
 
   // find all files in the page
   const files = $(`div#files.diff-view .file:not(.${CSVDIFF_RENDERED})`);
