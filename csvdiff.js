@@ -22,7 +22,7 @@ function render_csv_file(file_div) {
   // collect lines
   let old_lines = [];
   let new_lines = [];
-  lines = file_div.find(".blob-code-inner");
+  lines = file_div.find(".blob-code-marker");
   lines.each(function(index) {
     // parse table row from line
     let code_marker = $(this).data("code-marker");
