@@ -9,6 +9,10 @@
   text-align: left;
 }
 
+.github-csv-diff td {
+  white-space: pre-line;
+}
+
 .github-csv-diff td,
 .github-csv-diff th {
   border: 1px solid #ddd;
