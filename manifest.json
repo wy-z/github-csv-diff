@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Github CSV Diff",
   "homepage_url": "https://github.com/wy-z/github-csv-diff",
-  "description": "Show CSV diffs on GitHub",
+  "description": "Show CSV diffs on GitHub to enhance review experience",
   "version": "1.0.0",
   "icons": {
     "48": "icons/48.png",
