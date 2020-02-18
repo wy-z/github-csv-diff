@@ -4,7 +4,7 @@ Chrome extension to show CSV diffs on GitHub
 
 ## Installation
 
-Install the extension from the [Chrome Web Store](https://chrome.google.com/webstore).
+Install the extension from the [Chrome Web Store](https://chrome.google.com/webstore/detail/github-csv-diff/ngpdjmibpbemokfbmapemhpbmgacebhg).
 
 ## Usage
 
