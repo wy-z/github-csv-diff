@@ -23,16 +23,6 @@
   background-color: #f8f8f8;
 }
 
-.github-csv-diff tr:nth-child(even) td.modify,
-.github-csv-diff tr:nth-child(even) th.modify {
-  background-color: #dce7ea !important;
-}
-
-.github-csv-diff tr:nth-child(odd) td.modify,
-.github-csv-diff tr:nth-child(odd) th.modify {
-  background-color: #e9eff2 !important;
-}
-
 .github-csv-diff tr:nth-child(even) td.add,
 .github-csv-diff tr:nth-child(even) th.add,
 .github-csv-diff tr.add:nth-child(even) {
@@ -57,12 +47,16 @@
   background-color: #ffeef0 !important;
 }
 
+.github-csv-diff tr:nth-child(even) td.modify,
+.github-csv-diff tr:nth-child(even) th.modify,
 .github-csv-diff tr:nth-child(even) td.move,
 .github-csv-diff tr:nth-child(even) th.move,
 .github-csv-diff tr.move:nth-child(even) {
   background-color: #ffffeb !important;
 }
 
+.github-csv-diff tr:nth-child(odd) td.modify,
+.github-csv-diff tr:nth-child(odd) th.modify,
 .github-csv-diff tr:nth-child(odd) td.move,
 .github-csv-diff tr:nth-child(odd) th.move,
 .github-csv-diff tr.move:nth-child(odd) {
