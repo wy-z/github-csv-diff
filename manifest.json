@@ -3,7 +3,7 @@
   "name": "Github CSV Diff",
   "homepage_url": "https://github.com/wy-z/github-csv-diff",
   "description": "Show CSV diffs on GitHub to enhance review experience",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "icons": {
     "48": "icons/48.png",
     "128": "icons/128.png"
