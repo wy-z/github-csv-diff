@@ -8,7 +8,7 @@ Install the extension from the [Chrome Web Store](https://chrome.google.com/webs
 
 ## Usage
 
-View a [diff of a CSV file on GitHub](https://github.com/theodi/test-data/commit/9f391e6e35963b96aa0eed56c20ccd70f326e1f7) in 'Unified' diff view mode
+View a [diff of a CSV file on GitHub](https://github.com/theodi/test-data/commit/9f391e6e35963b96aa0eed56c20ccd70f326e1f7) in 'Unified' diff view mode, and click 'Render CSV diffs' in right-click menu
 
 ## Reference
 
